@@ -40,7 +40,7 @@ DSMeta allows you to query salespeople and evaluate their sales performance.
 This Project was created with Java, Spring Boot, Typescript, and H2 Database technologies, you can consult a table of sellers along with your sales data to evaluate your achieved goals and send an SMS with the seller's data, announcing that he has been the sales highlight, within a data-filtered period.
 
 #### Backend
-Using Java17 with Spring Boot, mapping the objects with JPA and integrating with H2, we pass through a seed of the database and create HTTPs requests where it generates data queries, and we implement the sending of SMS.
+Using Java17 with Spring Boot, mapping the objects with JPA and integrating with H2, we pass through a seed of the database and create HTTPs requests where it generates data queries, and we implement the sending of SMS with Twilio.
 
 #### Frontend
 Typescript, React + React Hooks(lib), vite(build tool) and Axios to make HTTPs requests and leave a more basic syntax in the code. We also use libraries like DatePicker and toastify to make the project more practical.
